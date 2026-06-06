@@ -1,0 +1,6 @@
+{
+  "name": "ComplianceAI Platform",
+  "description": "Enterprise-grade multi-tenant AI Governance, Risk Management & Compliance (GRC) Orchestrator for SaMD/TGA, APRA, DTA, and ACMA standards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
