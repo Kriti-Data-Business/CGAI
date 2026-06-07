@@ -3,7 +3,7 @@
 > **Bridging the Strategic and Technical Divide in the Australian Regulatory Landscape**
 
 [![Cloud Run](https://img.shields.io/badge/Google_Cloud_Run-asia--southeast1-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://complianceai-platform-1092989779668.asia-southeast1.run.app/)
-[![Built With](https://img.shields.io/badge/Built_With-Gemini_2.0_Flash-orange?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Built With](https://img.shields.io/badge/Built_With-Gemini_3.5_Flash-orange?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/UI-Tailwind_CSS-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-Proprietary-0F172A?style=flat-square)]()
 [![Author](https://img.shields.io/badge/Author-Kriti_Yadav-2563EB?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kriti-yadav)
