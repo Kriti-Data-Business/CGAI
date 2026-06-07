@@ -1,4 +1,4 @@
-# CGAI — Enterprise AI Governance & Operational Resilience
+# CGAI - Enterprise AI Governance & Operational Resilience
 
 > **Bridging the Strategic and Technical Divide in the Australian Regulatory Landscape**
 
@@ -15,7 +15,7 @@
 
 CGAI is a unified governance and compliance orchestration platform engineered for
 modern Australian enterprises. It transitions corporate AI adoption from passive,
-document-heavy compliance to active, real-time, codebase-enforced governance —
+document-heavy compliance to active, real-time, codebase-enforced governance -
 giving Board members, CROs, CISOs, and technical teams a single source of truth.
 
 ---
@@ -61,7 +61,7 @@ operate with:
 - Siloed tools for risk, security, and audit that do not communicate
 - No mechanism to translate regulatory language into algorithmic guardrails
 
-CGAI replaces this with a continuous, code-enforced governance loop — where every
+CGAI replaces this with a continuous, code-enforced governance loop - where every
 regulatory obligation becomes a live, testable, auditable rule.
 
 ---
@@ -101,13 +101,13 @@ standards into enforceable, algorithmic guardrails.
 Flat, shared-database models expose enterprises to catastrophic cross-tenant leaks.
 CGAI uses a cryptographically signed custom token workflow to lock user sessions:
 
-- **Custom JWT Claims** — Inject `tenantId` and Role-Based Access Control (RBAC)
+- **Custom JWT Claims** - Inject `tenantId` and Role-Based Access Control (RBAC)
   definitions at the token level
-- **Declarative Firestore Rules** — Server-side rules validate transactions at the
+- **Declarative Firestore Rules** - Server-side rules validate transactions at the
   database layer, eliminating intermediate API bottlenecks
 
 ```javascript
-// firestore.rules — Tenant-scoped read/write isolation
+// firestore.rules - Tenant-scoped read/write isolation
 match /tenants/{tenantId}/audits/{auditId} {
   allow read, write: if request.auth != null
     && request.auth.token.tenantId == tenantId;
@@ -198,7 +198,7 @@ $$L_d = U \times (T_m - T_a) \times F_d$$
 $$L_d = 25 \times (120 - 2) \times 40 = 118{,}000 \text{ seconds/day} \approx \textbf{32.7 hours reclaimed per day}$$
 
 By consolidating workflows, CGAI reclaims over **32.7 hours of specialised
-engineering and compliance capacity** every single day — equivalent to **4
+engineering and compliance capacity** every single day - equivalent to **4
 full-time engineers** freed from manual audit overhead.
 
 ---
@@ -221,16 +221,16 @@ devices and high-definition boardroom projectors.
 ### Presentation Structure (10 Slides)
 
 ```
-Slide 01 — Platform Overview and Mission
-Slide 02 — The Australian Regulatory Landscape
-Slide 03 — Regulatory Compliance Matrix (APRA/ACMA/DISR/ASD)
-Slide 04 — Technical Architecture Deep Dive
-Slide 05 — Multi-Tenant Security and JWT Isolation
-Slide 06 — AI Defense Stack (SafeGPT / MCP / BAU)
-Slide 07 — 4-Stage Operational Resilience Pipeline
-Slide 08 — Financial ROI and Productivity Formula
-Slide 09 — Deployment Roadmap and Integration Timeline
-Slide 10 — Strategic Summary and Call to Action
+Slide 01 - Platform Overview and Mission
+Slide 02 - The Australian Regulatory Landscape
+Slide 03 - Regulatory Compliance Matrix (APRA/ACMA/DISR/ASD)
+Slide 04 - Technical Architecture Deep Dive
+Slide 05 - Multi-Tenant Security and JWT Isolation
+Slide 06 - AI Defense Stack (SafeGPT / MCP / BAU)
+Slide 07 - 4-Stage Operational Resilience Pipeline
+Slide 08 - Financial ROI and Productivity Formula
+Slide 09 - Deployment Roadmap and Integration Timeline
+Slide 10 - Strategic Summary and Call to Action
 ```
 
 ---
@@ -242,8 +242,8 @@ Slide 10 — Strategic Summary and Call to Action
 | Primary Background | Main canvas | #FFFFFF Pure White |
 | Secondary Background | Warm off-white | #F8FAFC Canvas |
 | Primary Typography | Body and headings | #0F172A Slate Dark |
-| Brand Accent — Primary | CTAs, highlights | #2563EB Cobalt Blue |
-| Brand Accent — Secondary | Status, success | #0D9488 Emerald Teal |
+| Brand Accent - Primary | CTAs, highlights | #2563EB Cobalt Blue |
+| Brand Accent - Secondary | Status, success | #0D9488 Emerald Teal |
 | Layout | Responsive scaling | Tailwind CSS viewport units |
 
 ---
@@ -253,7 +253,7 @@ Slide 10 — Strategic Summary and Call to Action
 The platform is deployed on Google Cloud Run with a structured integration roadmap.
 
 ```bash
-# Region: asia-southeast1 (Singapore — optimised for Australian latency)
+# Region: asia-southeast1 (Singapore - optimised for Australian latency)
 # Service: complianceai-platform
 # Runtime: Containerised, serverless, auto-scaling
 
@@ -358,15 +358,15 @@ align with the APRA CPS 234 security posture of the platform.
 | Platform Conception and Architectural Design | Kriti Yadav |
 | Branding Tag | CGAI |
 | Regulatory Alignment | ASD, APRA, ASIC, DTA |
-| Deployment Infrastructure | Google Cloud Run — asia-southeast1 |
+| Deployment Infrastructure | Google Cloud Run - asia-southeast1 |
 | AI Stack | Google Gemini 2.0 Flash, ShieldGemma, Checks Guardrails API |
-| License | Proprietary — All rights reserved 2026 Kriti Yadav |
+| License | Proprietary - All rights reserved 2026 Kriti Yadav |
 
 ---
 
 <div align="center">
 
-**CGAI** — From Policy to Proof. From Principles to Runtime.
+**CGAI** - From Policy to Proof. From Principles to Runtime.
 
 Built for Australia. Engineered for Accountability.
 
