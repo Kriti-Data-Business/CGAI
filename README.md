@@ -43,6 +43,9 @@ giving Board members, CROs, CISOs, and technical teams a single source of truth.
 
 ## Live Application
 
+<img width="1504" height="716" alt="image" src="https://github.com/user-attachments/assets/4cf8aad9-bdd4-40ea-aac1-3a302ddabce4" />
+
+
 | Resource | Link |
 |---|---|
 | Active Application Prototype | [complianceai-platform-1092989779668.asia-southeast1.run.app](https://complianceai-platform-1092989779668.asia-southeast1.run.app/) |
