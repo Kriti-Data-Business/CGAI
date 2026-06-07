@@ -43,7 +43,7 @@ giving Board members, CROs, CISOs, and technical teams a single source of truth.
 
 ## Live Application
 
-<img width="1504" height="716" alt="image" src="https://github.com/user-attachments/assets/4cf8aad9-bdd4-40ea-aac1-3a302ddabce4" />
+<img width="1211" height="697" alt="image" src="https://github.com/user-attachments/assets/13ab3d4f-2223-41c8-9639-553760fbf390" />
 
 
 | Resource | Link |
